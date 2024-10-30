@@ -213,7 +213,7 @@
     background-color: var(--cor-fundo-icones);
     padding: 1.8em 1em 0.8em;
     border-radius: 2em;
-    margin-left: -1em;    
+    margin-left: -1.5em;    
 }
 .sua-presenca__confirmacao{
     border: 1px solid transparent;
@@ -221,8 +221,8 @@
     padding-top: 0.8em;
     font-size: 13px;
     color: var(--cor-escrita);
-    margin-right: 2.5em;
-    margin-left: -1.4em;
+    margin-right: 2.8em;
+    margin-left: -2em;
     
 }
 .localizacao{
