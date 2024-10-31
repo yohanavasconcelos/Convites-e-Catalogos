@@ -59,7 +59,7 @@ body{
 }
 
 /* convite 15 anos */
-.convite-15anos{
+.img-convite{
     margin-top: 1em;
     margin-bottom: -5em;
     width: 15em;
@@ -67,112 +67,7 @@ body{
 
 /* convite casamento */
 
-.body_casamento{
-    border: 2px solid var(--cor-borda-corpo);
-    height: 48em;
-    position: relative;
-    text-align: center;
-    font-family: var(--fonte-principal);
-    color: var(--cor-escrita-casamento);
-    width: 30em;
-    margin-left: 24em;
-    margin-top: 5em;
-}
 
-.flor{
-    width: 15em;
-    margin-top: -4em;
-    margin-left: -20em;
-}
-
-.descricao{
-    float: right;
-    margin-top: -6em;
-    margin-left: 5em;
-    font-size: 0.9em;
-}
-
-.nome{
-   font-family: var(--fonte-detalhe);
-   font-size: 3em;
-   color: var(--cor-escrita);
-   margin-top: -0.8em;
-}
-
-.dia-casamento{
-    border: 2px solid var(--cor-borda);
-    border-right: none;
-    border-left: none;
-    padding: 1em 0;
-    width: 14em;
-    font-size: 1.3em;
-    margin-left: 4.5em;
-}
-
-.icones{
-    display: flex;
-    margin-top: 4em;
-    margin-left: 1.2em;
-}
-
-.traje{
-    padding-left: 1em;
-}
-
-.traje-vestimenta{
-    border: 1px solid var(--cor-fundo-icones);
-    background-color: var(--cor-fundo-icones);
-    padding: 1.8em 1em 0.8em;
-    border-radius: 2em;
-        
-}
-    
-.imagem__icones{
-    width: 1.8em;
-    height: 1.8em;
-}
-
-
-.sua-presenca{
-    padding-left: 2em;
-}
-
-.confirmacao{
-    border: 1px solid var(--cor-fundo-icones);
-    background-color: var(--cor-fundo-icones);
-    padding: 1.8em 1em 0.8em;
-    border-radius: 2em;
-        
-}
-.sua-presenca__confirmacao{
-    padding-top: 0.8em;
-    font-size: 13px;
-    color: var(--cor-escrita);
-    padding-right: 1em;
-    
-}
-.localizacao{
-    padding-right: 1.4em;
-}
-
-.localizador{
-    border: 1px solid var(--cor-fundo-icones);
-    background-color: var(--cor-fundo-icones);
-    padding: 1.8em 1em 0.8em;
-    border-radius: 2em;
-    margin-right: 1em;      
-}
-.localizacao_{
-    padding-top: 0.8em;
-    font-size: 13px;
-    color: var(--cor-escrita);
-}
-
-
-.flor_direita{
-    margin: -4em -8em -4em 12em;
-    position: relative;
-}
 
 /* convite de aniversário */
 .body_aniversario{
