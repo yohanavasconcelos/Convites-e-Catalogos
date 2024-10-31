@@ -16,7 +16,7 @@
     --fonte-detalhe: "Sevillana", cursive;
 }
 
-.body_pg-inicial{
+body{
     text-align: center;
     background-color: bisque;
     font-family: var(--fonte-principal);
@@ -52,220 +52,37 @@
     font-size: 1.5em;
 }
 
-.img-sapp{
-    width: 8em;
+.img-contato{
+    width: 6em;
     float: right;
     padding-right: 0.5em;
 }
 
 /* convite 15 anos */
-.body_15anos{
-    height: 100%;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center; 
-    font-family: var(--fonte-principal);
-    background-image: url('/imagens/fundo.jpg');
-}
-
-.convidando{
-    max-width: 100%;
-    padding: 0 20px; 
-    box-sizing: border-box; 
-    display: flex;
-    flex-direction: column; 
-    align-items: center; 
-}
-
-    
-.imagem_arco{
+.convite-15anos{
+    margin-top: 1em;
+    margin-bottom: -5em;
     width: 15em;
-    height: 16.4em;
-    border-radius: 1em;
-    margin-left: 0.8em;
-    
-}
-
-.conteudo-centralizado {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.dia_da_festa{
-    margin-bottom: 1.25em;
-    margin-top: 0.5em;
-    display: flex;
-    padding-left: 0.2em;
-    color: var(--cor-escrita);
-}
-
-.dia-semana_horario{
-    padding: 0 2em;
-    border: 1.5px solid var(--cor-borda);
-    height: 4.2em;
-    width: 2em;
-    border-right-style: hidden;
-}
-
-.dia-semana{
-    margin-left: -0.8em;
-}
-
-.horario{
-    margin-top: -1em;
-    margin-left: -0.4em;
-    color: var(--cor-numero);
-}
-
-.dia{
-    border: 1.5px solid var(--cor-borda);
-    border-radius: 10em;
-    width: 3em;
-    height: 1em;
-    margin-top: -0.4em;
-    margin-left: -0.5em;
-    text-align: center;
-    padding-top: 0.8em;
-    padding-bottom: 1.2em;
-    font-size: 30px;
-}
-
-.mes_ano-festa{
-    padding: 0 2em;
-    border: 1.5px solid var(--cor-borda);
-    height: 4.2em;
-    border-left-style: hidden;
-    margin-left: -1em;
-    width: 2em;
-}
-
-.ano-festa{
-    margin-top: -1em;
-    margin-left: 0.3em;
-    color: var(--cor-numero);
-}
-
-.local{
-    margin-top: -4.5em;
-    padding-left: 0.5em;
-    font-size: 13px;
-    color: var(--cor-escrita);
-}
-
-.edificio{
-    margin-top: -0.8em;
-    padding-left: 4em;
-}
-
-.salao{
-    margin-top: -0.8em;
-    padding-left: 5.3em;
-}
-
-.icones{
-    display: flex;
-    margin-top: 2.6em;
-    margin-left: 1.2em;
-}
-
-.traje{
-    padding-left: 1em;
-}
-
-.traje-vestimenta{
-    border: 1px solid var(--cor-fundo-icones);
-    background-color: var(--cor-fundo-icones);
-    padding: 1.8em 1em 0.8em;
-    border-radius: 2em;
-    margin-left: 1em;    
-}
-    
-.imagem__icones{
-    width: 1.8em;
-    height: 1.8em;
-}
-
-.codigo_vestimenta{
-    border: 1px solid transparent;
-    width: 8em;
-    padding-top: 0.8em;
-    padding-left: 0.8em;
-    font-size: 13px;
-    color: var(--cor-escrita);
-}
-
-.evitar{
-    border: 1px solid transparent;
-    width: 8em;
-    margin-top: -1em;
-    margin-left: 0.5em;
-    color: var(--cor-escrita);
-    font-size: 13px;
-}
-.sua-presenca{
-    padding-left: 2em;
-}
-
-.confirmacao{
-    border: 1px solid var(--cor-fundo-icones);
-    background-color: var(--cor-fundo-icones);
-    padding: 1.8em 1em 0.8em;
-    border-radius: 2em;
-    margin-left: -1.5em;    
-}
-.sua-presenca__confirmacao{
-    border: 1px solid transparent;
-    width: 5em;
-    padding-top: 0.8em;
-    font-size: 13px;
-    color: var(--cor-escrita);
-    margin-right: 2.8em;
-    margin-left: -2em;
-    
-}
-.localizacao{
-    padding-right: 1.4em;
-}
-
-.localizador{
-    border: 1px solid var(--cor-fundo-icones);
-    background-color: var(--cor-fundo-icones);
-    padding: 1.8em 1em 0.8em;
-    border-radius: 2em;
-        
-}
-.localizacao_{
-    border: 1px solid transparent;
-    width: 6.5em;
-    padding-top: 0.8em;
-    font-size: 13px;
-    color: var(--cor-escrita);
-}
-
-.rodape__aviso{
-    color: var(--cor-escrita);
-    font-family: var(--fonte-principal);
-    font-weight: bold;
-    text-align: center;
 }
 
 /* convite casamento */
 
 .body_casamento{
     border: 2px solid var(--cor-borda-corpo);
-    height: 55em;
+    height: 48em;
     position: relative;
     text-align: center;
     font-family: var(--fonte-principal);
     color: var(--cor-escrita-casamento);
+    width: 30em;
+    margin-left: 24em;
+    margin-top: 5em;
 }
 
 .flor{
     width: 15em;
-    margin-top: -2em;
-    margin-left: -15em;
+    margin-top: -4em;
+    margin-left: -20em;
 }
 
 .descricao{
@@ -289,6 +106,17 @@
     padding: 1em 0;
     width: 14em;
     font-size: 1.3em;
+    margin-left: 4.5em;
+}
+
+.icones{
+    display: flex;
+    margin-top: 4em;
+    margin-left: 1.2em;
+}
+
+.traje{
+    padding-left: 1em;
 }
 
 .traje-vestimenta{
@@ -298,6 +126,16 @@
     border-radius: 2em;
         
 }
+    
+.imagem__icones{
+    width: 1.8em;
+    height: 1.8em;
+}
+
+
+.sua-presenca{
+    padding-left: 2em;
+}
 
 .confirmacao{
     border: 1px solid var(--cor-fundo-icones);
@@ -306,19 +144,33 @@
     border-radius: 2em;
         
 }
-
+.sua-presenca__confirmacao{
+    padding-top: 0.8em;
+    font-size: 13px;
+    color: var(--cor-escrita);
+    padding-right: 1em;
+    
+}
+.localizacao{
+    padding-right: 1.4em;
+}
 
 .localizador{
     border: 1px solid var(--cor-fundo-icones);
     background-color: var(--cor-fundo-icones);
     padding: 1.8em 1em 0.8em;
     border-radius: 2em;
-        
+    margin-right: 1em;      
+}
+.localizacao_{
+    padding-top: 0.8em;
+    font-size: 13px;
+    color: var(--cor-escrita);
 }
 
 
 .flor_direita{
-    margin: -3em 0 -4em 12em;
+    margin: -4em -8em -4em 12em;
     position: relative;
 }
 
