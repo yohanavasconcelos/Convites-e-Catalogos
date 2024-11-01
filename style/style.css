@@ -118,7 +118,7 @@ body{
     position: relative;
     align-items: center;
     align-self: center;
-    margin: 0 30em;
+    margin: 0 4em;
 }
 
 .img-borboleta-direita{
@@ -129,8 +129,8 @@ body{
 }
 
 .img-borboleta-rosa{
-    margin-right: 20em;
-    margin-left: -10em;
+    margin-right: 6em;
+    margin-left: -16em;
     width: 15em;
     margin-top: -19.5em;
 }
