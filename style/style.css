@@ -37,7 +37,7 @@ body{
     border: 1px solid var(--color-box);
     border-radius: 1px;
     background-color: var(--color-box);
-    background-repeat: no-reapt;   
+    background-repeat: no-repeat;   
     padding: 1em 0.8em;
 }
 
@@ -70,6 +70,7 @@ body{
     float: right;
     padding-right: 0.5em;
 }
+
 
 
 
