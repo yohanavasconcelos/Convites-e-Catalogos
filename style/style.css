@@ -38,7 +38,7 @@ body{
     border-radius: 1px;
     background-color: var(--color-box);
     background-repeat: no-reapt;   
-    padding: 1.5em 0.5em;
+    padding: 1em 0.8em;
 }
 
 .contato{
@@ -70,6 +70,7 @@ body{
     float: right;
     padding-right: 0.5em;
 }
+
 
 
 
