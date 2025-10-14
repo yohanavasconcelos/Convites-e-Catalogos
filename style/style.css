@@ -35,10 +35,10 @@ body{
 .opcoes__link{
     text-decoration: none;
     border: 1px solid var(--color-box);
-    border-radius: 0.5px;
+    border-radius: 1px;
     background-color: var(--color-box);
     background-repeat: no-reapt;   
-    padding: 1.5em 0.8em;
+    padding: 1.5em 0.5em;
 }
 
 .contato{
@@ -70,6 +70,7 @@ body{
     float: right;
     padding-right: 0.5em;
 }
+
 
 
 
